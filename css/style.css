@@ -9134,7 +9134,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 6em 0;
+  padding: 2em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
@@ -9946,3 +9946,211 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+  
+
+   
+
+
+    
+
+
+   
+    /* css for form and image and contant */
+    .container1 {
+      display: flex;
+      width: 90%;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .info-section {
+      width: 50%;
+      padding: 40px;
+      background-color: #f0f0f0;
+      text-align: center;
+    }
+
+    .form-section {
+      width: 50%;
+      padding: 40px;
+      background-color: #ffffff;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .info-section p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .form-section form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    textarea {
+      margin-bottom: 15px;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="submit"] {
+      padding: 10px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+
+    .footer-section {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 30px 0;
+}
+
+.footer-section .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-logo .logo-img {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-services-list, .footer-contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-services-list li, .footer-contact-list li {
+    margin-bottom: 8px;
+}
+
+.footer-services-list li a, .footer-contact-list li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-services-list li a:hover, .footer-contact-list li a:hover {
+    color: #ccc;
+}
+
+.footer-section p i {
+    margin-right: 8px;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.whatsapp-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+/* WhatsApp Chat Interface */
+.whatsapp-chat {
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  width: 320px;
+  background-color: #fff;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 1000;
+}
+
+/* Chat Header */
+.chat-header {
+  padding: 10px;
+  background-color: #25d366;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.chat-title {
+  font-size: 16px;
+}
+
+.close-chat {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Chat Body */
+.chat-body {
+  padding: 20px;
+  background-color: #f0f0f0;
+  height: 150px;
+  overflow-y: auto;
+}
+
+.chat-body p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Chat Input Section */
+.chat-input {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.chat-input input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.chat-input button {
+  background-color: #25d366;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
